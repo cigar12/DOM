@@ -12,4 +12,12 @@
 
 const title = document.querySelector("#heading")
 console.log(title)
-title.style.color = "red"//inline.style
+title.style.backgroundColor = "Pink"//inline.style
+title.style.color = "Magenta"   
+
+const listItems = document.querySelectorAll(".list-item")
+console.log(listItems)
+for(i=0;i<=4;i++){
+        listItems[i].style.color = "blue"
+        listItems[i].style.backgroundColor = "cyan"
+    }   
